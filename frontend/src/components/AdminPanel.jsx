@@ -7,10 +7,10 @@ const AdminPanel = () => {
     const Links = [
         {name: "Dashboard", link: '/admindashboard', icon: "fa-solid fa-table-columns"},
         {name: "Products", link: '/products', icon: "fa-solid fa-shop"},
-        {name: "Cart", link: '/cart', icon: "fa-solid fa-cart-shopping"},
+        // {name: "Cart", link: '/cart', icon: "fa-solid fa-cart-shopping"},
         {name: "Customers", link: '/customers', icon: "fa-solid fa-users"},
-        {name: "Order", link: '/order', icon: "fa-brands fa-shopify"},
-        {name: "Add Products", link: '/addproducts', icon: "fa-solid fa-cart-plus"},
+        // {name: "Order", link: '/order', icon: "fa-brands fa-shopify"},
+        // {name: "Add Products", link: '/addproducts', icon: "fa-solid fa-cart-plus"},
     ]
     return (
         <div className='h-screen relative z-10 '>

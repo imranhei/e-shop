@@ -29,7 +29,7 @@ const Login = () => {
                         <input id='pass' type="password" placeholder='Type your password'  className='outline-none w-full bg-transparent'/>
                     </div>
                 </div>
-                <Link to='/forgetpass' className="w-full text-right font-semibold cursor-pointer hover:text-rose-400">Forget password?</Link>
+                {/* <Link to='/forgetpass' className="w-full text-right font-semibold cursor-pointer hover:text-rose-400">Forget password?</Link> */}
                 <button onClick={handleLogin} className="bg-rose-400 rounded-sm px-16 py-1 mt-2 text-white font-semibold border border-transparent hover:border-rose-400 hover:text-rose-400 hover:bg-transparent mb-4">LOGIN</button>
                 <h1>Or Sign Up Using</h1>
                 <div className="flex gap-5 text-lg mt-2 mb-8">
