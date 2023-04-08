@@ -5,7 +5,7 @@ const AdminPanel = () => {
     const location = useLocation();
     const [open, setOpen] = useState(false);
     const Links = [
-        {name: "Dashboard", link: '/admindashboard', icon: "fa-solid fa-table-columns"},
+        {name: "Dashboard", link: '/', icon: "fa-solid fa-table-columns"},
         {name: "Products", link: '/products', icon: "fa-solid fa-shop"},
         // {name: "Cart", link: '/cart', icon: "fa-solid fa-cart-shopping"},
         {name: "Customers", link: '/customers', icon: "fa-solid fa-users"},
